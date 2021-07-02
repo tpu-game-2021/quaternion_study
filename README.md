@@ -4,7 +4,8 @@ quaternionクラスを作成しました。
 ただし、主要部分の実装がされていません。
 実装して、ユニットテストが通るようにしてください。
 
-[![Actions Status](https://github.com/tpu-game/quaternion_study/workflows/MS%20testing%20framework/badge.svg)](https://github.com/tpu-game/quaternion_study/actions)
+[![MS Build and Test](https://github.com/tpu-game-2021/quaternion_study/actions/workflows/MsBuildAndTest.yml/badge.svg)](https://github.com/tpu-game-2021/quaternion_study/actions/workflows/MsBuildAndTest.yml)
+
 （このファイルの上の行の[tpu-game-2021]の部分(2か所)を自分のアカウント名に修正してください）
 
 # 進め方
