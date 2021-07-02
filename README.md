@@ -13,5 +13,6 @@ quaternionクラスを作成しました。
 * README.mdの上の箇所を書き換えて、ビルドの状態のバッチを自分のアカウントに変更してください
 * Actions タブから GitHub Actions を有効にしてください。
 * 「src/libquat/quaternion.cpp」を書き換えてVisual Studioのテストが通るようにしてください。
+  * テストコードは「src/UnitTest/UnitTest.cpp」です
 * テストは一つづつ通しましょう。テストが通ったらcommitを忘れずにしましょう。
 * すべてのテストが通ったら、本リポジトリにプルリクエストをしてください。
