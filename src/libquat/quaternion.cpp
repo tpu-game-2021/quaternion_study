@@ -94,7 +94,7 @@ quaternion quaternion::conjugate() const
 quaternion quaternion::inverse() const
 {
 	// todo: 実装して下さい
-	return quaternion();
+	return this->conjugate() / this-> length_sq();
 }
 
 // 球面線形補間
