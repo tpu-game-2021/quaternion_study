@@ -91,7 +91,7 @@ float quaternion::length_sq() const
 quaternion quaternion::conjugate() const
 {
 	// todo: 実装して下さい
-	return quaternion();
+	return w_ - x_ - y_ - z_;
 }
 
 // 逆元を返す
