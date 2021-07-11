@@ -53,8 +53,12 @@ vector3 quaternion::operator*(const vector3& v) const
 
 quaternion quaternion::operator*(const quaternion& rhs) const
 {
-	// todo: 実装して下さい
-	return quaternion(x_ * rhs.x_, y_ * rhs.y_, z_ * rhs.z_, w_ * rhs.w_);
+	return quaternion(
+	w_ * rhs.x_ + x_ * rhs.w_ + y_ * rhs.z_ - z_ * rhs.y_,  
+        w_ * rhs.y_ - x_ * rhs.z_ + y_ * rhs.w_ + z_ * rhs.x_,  
+        w_ * rhs.z_ + x_ * rhs.y_ - y_ * rhs.x_ + z_ * rhs.w_,  
+	w_ * rhs.w_ - x_ * rhs.x_ - y_ * rhs.y_ - z_ * rhs.z_,
+	);
 }
 
 quaternion quaternion::operator+(const quaternion& rhs) const
