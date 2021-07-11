@@ -91,7 +91,7 @@ float quaternion::length_sq() const
 quaternion quaternion::conjugate() const
 {
 	// todo: 実装して下さい
-	return this->identity() * -1;
+	return quaternion();
 }
 
 // 逆元を返す
