@@ -78,7 +78,7 @@ quaternion &quaternion::identity()
 quaternion &quaternion::normalize()
 {
 	// todo: 実装して下さい
-	return sqrt(x_ * x_ + y_ * y_ + z_ * z_ + w_ * w_);
+	return *this;
 }
 
 // 大きさの2乗
