@@ -24,9 +24,9 @@ quaternion::quaternion(const vector3 &v, float arg)
 	float co = cosf(0.5f * arg);
 	float si = sinf(0.5f * arg);
 
-	x_ = si * v.y();
+	x_ = si * v.x();
 	y_ = si * v.y();
-	z_ = si * v.x();
+	z_ = si * v.z();
 	w_ = co;
 }
 
