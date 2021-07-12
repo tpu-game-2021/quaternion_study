@@ -47,13 +47,11 @@ quaternion quaternion::operator/(float f) const
 
 vector3 quaternion::operator*(const vector3& v) const
 {
-	// todo: 実装して下さい
 	return vector3();
 }
 
 quaternion quaternion::operator*(const quaternion& rhs) const
 {
-	// todo: 実装して下さい
 	return quaternion();
 }
 
@@ -66,14 +64,12 @@ quaternion quaternion::operator+(const quaternion& rhs) const
 // 単位元にする
 quaternion &quaternion::identity()
 {
-	// todo: 実装して下さい
 	return *this;
 }
 
 // 正規化する
 quaternion &quaternion::normalize()
 {
-	// todo: 実装して下さい
 	return *this;
 }
 
@@ -86,21 +82,18 @@ float quaternion::length_sq() const
 // 共役を返す
 quaternion quaternion::conjugate() const
 {
-	// todo: 実装して下さい
 	return quaternion();
 }
 
 // 逆元を返す
 quaternion quaternion::inverse() const
 {
-	// todo: 実装して下さい
-	return quaternion();
+	return this->conjugate() / this->length_sq();
 }
 
 // 球面線形補間
 quaternion quaternion::slerp(const quaternion& q0, const quaternion& q1, float t)
 {
-	// todo: 実装して下さい
 	return quaternion();
 }
 
