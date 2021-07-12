@@ -1,6 +1,9 @@
 name: MS Build and Test
 
-on: [push]
+on:
+  push:
+    branches:
+      - answer
 
 env:
   # Path to the solution file relative to the root of the project.
